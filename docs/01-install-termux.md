@@ -1,39 +1,78 @@
-Install Termux
+# 📱 Install Termux
 
-Kenapa Termux?
+Selamat datang!
 
-Termux memungkinkan kita menjalankan lingkungan Linux langsung di Android tanpa root.
+Repository ini dibuat untuk membantu siapa saja belajar programming hanya dengan HP Android.
 
-Dengan Termux kita bisa:
+---
 
-- Belajar programming
-- Menggunakan Git dan GitHub
-- Menjalankan Python
-- Menjalankan NodeJS
-- Menggunakan Neovim atau LazyVim
+## 🤔 Kenapa Termux?
 
-Jangan Install dari Play Store
+Termux adalah terminal Linux untuk Android yang memungkinkan kita:
 
-Versi Play Store sudah lama dan tidak lagi diperbarui.
+- 🐍 Belajar Python
+- 🌐 Menggunakan Git & GitHub
+- ⚡ Menjalankan NodeJS
+- 📝 Menggunakan Neovim / LazyVim
+- 🚀 Membangun project langsung dari HP
 
-Gunakan versi terbaru dari F-Droid atau halaman resmi Termux.
+---
 
-Update Package
+## ⚠️ Jangan Download dari Play Store
 
-Setelah membuka Termux untuk pertama kali:
+Versi Play Store sudah tidak diperbarui.
 
+Gunakan salah satu sumber berikut:
+
+- F-Droid
+- GitHub Release Resmi Termux
+
+---
+
+## 🔄 Update Package
+
+Jalankan:
+
+```bash
 pkg update && pkg upgrade -y
+```
 
-Berikan Izin Storage
+---
 
+## 📂 Aktifkan Storage
+
+```bash
 termux-setup-storage
+```
 
-Pilih Allow ketika muncul permintaan izin.
+Pilih **Allow** saat muncul permintaan izin.
 
-Verifikasi
+---
 
-Pastikan folder storage berhasil dibuat:
+## ✅ Verifikasi
 
+Cek apakah storage berhasil dibuat:
+
+```bash
 ls ~/storage
+```
 
-Jika muncul beberapa folder seperti downloads, shared, dcim, maka setup berhasil.
+Output biasanya berisi:
+
+```text
+downloads
+shared
+dcim
+movies
+music
+```
+
+---
+
+## 📚 Selanjutnya
+
+➡️ Lanjut ke:
+
+```text
+docs/02-basic-packages.md
+```

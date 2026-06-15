@@ -1,41 +1,67 @@
-Basic Packages
+# 📦 Basic Packages
 
-Install package dasar yang akan sering digunakan.
+Sebelum mulai coding, install package dasar berikut.
 
-Install
+---
 
+## 🚀 Install Sekaligus
+
+```bash
 pkg install git curl wget unzip zip neovim python -y
+```
 
-Fungsi Package
+---
 
-Git
+## 📋 Fungsi Package
 
-Digunakan untuk version control dan GitHub.
+| Package | Fungsi |
+|----------|----------|
+| git | Version Control & GitHub |
+| curl | Request data dari internet |
+| wget | Download file |
+| zip | Membuat file zip |
+| unzip | Mengekstrak file zip |
+| neovim | Text Editor |
+| python | Bahasa Pemrograman Python |
 
-Curl
+---
 
-Mengambil data dari internet melalui terminal.
+## 🔍 Verifikasi
 
-Wget
+### Git
 
-Mengunduh file dari internet.
-
-Zip dan Unzip
-
-Membuat dan mengekstrak file zip.
-
-Neovim
-
-Text editor modern yang ringan dan powerful.
-
-Python
-
-Bahasa pemrograman yang cocok untuk pemula.
-
-Verifikasi
-
+```bash
 git --version
-python --version
-nvim --version
+```
 
-Jika semua menampilkan versi, instalasi berhasil.
+### Python
+
+```bash
+python --version
+```
+
+### Neovim
+
+```bash
+nvim --version
+```
+
+---
+
+## ✅ Checklist
+
+- [ ] Git terinstall
+- [ ] Python terinstall
+- [ ] Neovim terinstall
+
+Jika semua command menampilkan versi, maka setup berhasil.
+
+---
+
+## 📚 Selanjutnya
+
+➡️ Lanjut ke:
+
+```text
+docs/03-git-github.md
+```

@@ -1,56 +1,104 @@
-Git dan GitHub Dasar
+# 🌐 Git & GitHub Dasar
 
-Konfigurasi Git
+Git digunakan untuk melacak perubahan project.
 
-Ganti dengan nama dan email GitHub milikmu.
+GitHub digunakan untuk menyimpan project secara online.
 
+---
+
+## 👤 Konfigurasi Git
+
+Ganti dengan data milikmu:
+
+```bash
 git config --global user.name "Nama Kamu"
 git config --global user.email "email@example.com"
+```
 
 Cek konfigurasi:
 
+```bash
 git config --list
+```
 
-Membuat Repository Baru
+---
 
-Masuk ke folder project:
+## 📁 Membuat Repository Baru
 
+```bash
 mkdir my-project
 cd my-project
+```
 
 Inisialisasi Git:
 
+```bash
 git init
+```
 
-Menambahkan File
+---
 
+## ➕ Menambahkan File
+
+Satu file:
+
+```bash
 git add README.md
+```
 
-Atau semua file:
+Semua file:
 
+```bash
 git add .
+```
 
-Commit
+---
 
+## 💾 Commit
+
+```bash
 git commit -m "Initial commit"
+```
 
-Menghubungkan ke GitHub
+---
 
-Tambahkan remote repository:
+## 🔗 Hubungkan ke GitHub
 
+```bash
 git remote add origin git@github.com:USERNAME/REPOSITORY.git
+```
 
-Cek remote:
+Verifikasi:
 
+```bash
 git remote -v
+```
 
-Push ke GitHub
+---
 
+## 🚀 Push ke GitHub
+
+```bash
 git branch -M main
 git push -u origin main
+```
 
-Cek Status Repository
+---
 
+## 🔍 Cek Status
+
+```bash
 git status
+```
 
-Perintah ini sangat sering digunakan untuk melihat perubahan file sebelum melakukan commit.
+Perintah ini adalah salah satu yang paling sering digunakan saat bekerja dengan Git.
+
+---
+
+## 📚 Selanjutnya
+
+➡️ Lanjut ke:
+
+```text
+docs/04-github-ssh.md
+```
